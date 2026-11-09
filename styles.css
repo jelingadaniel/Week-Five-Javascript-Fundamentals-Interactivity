@@ -1,0 +1,91 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+
+p {
+  color: red;
+}
+
+#main_header {
+  background-color:blue;
+  text-align:center;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.main-header {
+    background: #198754;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+input {
+    padding: 10px;
+    margin: 8px 0;
+    width: 90%;
+    max-width: 350px;
+}
+
+button {
+    background: #198754;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #146c43;
+}
+
+.summary-card {
+    display: inline-block;
+    background: #e9f5ee;
+    padding: 15px;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+#budgetMessage {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#expenseList li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+@media (max-width: 600px) {
+    .summary-card {
+        display: block;
+    }
+
+    input {
+        width: 90%;
+    }
+}
